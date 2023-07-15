@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* added style in the header part */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: gray;
+    padding: 12px;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+
+}
+.header li a{
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+/* added styles in the banner part */
+
+.banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.466)), url(/asset/image/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-about{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    font-size: 70px;
+    color: aliceblue;
+}
+.beautiful{
+    color: red;
+}
+.banner-description{
+    color: aliceblue;
+    line-height: 25px;
+    margin-top: 5px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+.button-click{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+}
+
+/* added styel serviess part */
+
+.footer-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/asset/image/footer-bg.png);
+    background-color: black;
+    position: relative;
+}
+.service-detailes{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.service-box{
+    width: 30%;
+}
+.div-four{
+    display: flex;
+    gap: 10px;
+
+}
+.div-tow-ga{
+    margin-top: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.icon{
+    width: 150px;
+    background-color: white;
+}
+.hire-me{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.hire-img{
+    width: 50%;
+    border-radius: 50%;
+}
+.service-title{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.service-describetion{
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+/* added styles coller */
+
+.coller-services-box{
+    width: 65%;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.705);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.call{
+    width: 80px;
+}
+.appointment{
+    height:80px;
+}
+
+/* added styes footer */
+
+.read-footer{
+    width: 85%;
+    margin: auto;
+    background-color: gray;
+    height: 500px;
+    /* position: relative; */
+}
+.footer-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.boxes{
+    width: 15%;
+    height: 30%;
+    margin: 0 10px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.blog{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 10px;
+}
+.pic{
+    width: 100%;
+}
+.boxes-title{
+    margin-top: 5px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.boxes-description{
+    line-height: 25px;
+}
